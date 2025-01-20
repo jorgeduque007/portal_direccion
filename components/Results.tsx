@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-const Resultados: React.FC = () => {
+const Results: React.FC = () => {
   return (
     <div className="flex items-center justify-center h-auto bg-white">
     <div className="w-2/3 bg-gradient-to-b from-[#F7C95F] to-[#FDB235] rounded-[30px] p-10 flex flex-col justify-center">
@@ -26,4 +26,4 @@ const Resultados: React.FC = () => {
   );
 };
 
-export default Resultados;
+export default Results;
