@@ -5,7 +5,7 @@ const Documents: React.FC = () => {
     <div className="py-20 flex justify-center items-center bg-gradient-to-b from-[#2925CC] to-[#4B48E5]">
       <div className="text-center">
         {/* Title */}
-        <h1 className="text-white font-bold font-sans text-2xl md:text-3xl mb-4 w-auto">
+        <h1 className="text-white font-bold font-sans text-2xl md:text-3xl mb-4 px-10 md:px-52 w-auto">
           Documentos oficiales y resoluciones clave
         </h1>
 
