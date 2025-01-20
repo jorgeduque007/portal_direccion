@@ -10,7 +10,7 @@ const Information: React.FC = () => {
           {/* Text Section */}
           <div className="flex-1">
             <h1 className="text-[55px] leading-[1.2] font-bold text-[#191847] mb-6">
-              Tu portal de información sobre los avances y resultados de la DSCI
+              Tu portal de información sobre los avances y resultados de la DSCI..
             </h1>
             <a
               href="#"
