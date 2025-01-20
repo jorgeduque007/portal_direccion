@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Implementation: React.FC = () => {
   return (
-    <div className="min-h-screen  flex flex-col justify-center items-center bg-gradient-to-r from-gray-100 to-gray-200">
+    <div className="flex flex-col justify-center items-center bg-gradient-to-r from-gray-100 to-gray-200">
       <div className="text-center m-12">
         <h1 className="text-[#02033B] font-bold text-2xl">
           Ruta de implementación
