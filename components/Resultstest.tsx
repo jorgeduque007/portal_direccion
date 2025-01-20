@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const ResultsTest: React.FC = () => {
   return (
     <div className="flex items-center justify-center h-auto bg-white">
-      <div className="w-2/3 bg-gradient-to-b my-20 from-[#F7C95F] to-[#FDB235] rounded-[30px] p-10 flex flex-col justify-center">
+      <div className="w-2/3 bg-gradient-to-b from-[#F7C95F] to-[#FDB235] rounded-[30px] p-10 flex flex-col justify-center">
         <h2 className="text-[43px] font-inter font-extrabold text-[#191847] mb-4">
           Resultados en cifras.
         </h2>
