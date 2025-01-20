@@ -9,6 +9,7 @@ import Information from "../components/Information";
 import Gender from "../components/Gender";
 import Media from "../components/Media";
 import Footer from "../components/Footer";
+import Resultados from "../components/Resultados";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function Home() {
       </Head>
       <div>
         <Information />
+        <Resultados />
         <Stories />
         <Analysis />
         <Implementation />
