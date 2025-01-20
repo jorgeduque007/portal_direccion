@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Head from 'next/head';
 import Analysis from '../components/Analysis'; // Ruta relativa al archivo
 import Stories from '../components/Stories'; // Ruta relativa al archivo
-import Results from '../components/Results';
 import Implementation from '../components/Implementation';
 import Documents from '../components/Documents';
 import Information from '../components/Information';
@@ -30,7 +29,6 @@ export default function Home() {
       </Head>
       <div>
         <Information />
-        <Results />
         <ResultsTest/>
         <Stories />
         <Analysis />
