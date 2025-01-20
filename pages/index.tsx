@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <div>
         <Information />
-        <Resultados />
+       {/*  <Resultados /> */}
         <Stories />
         <Analysis />
         <Implementation />
