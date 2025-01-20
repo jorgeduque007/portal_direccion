@@ -28,7 +28,7 @@ const Analysis: React.FC = () => {
                     Accede al boletín con los precios actuales de la coca, clave
                     para entender el contexto de las regiones.
                   </p>
-                  <button className="mt-5 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
+                  <button className="mt-5 px-4 py-2 bg-[#F7C741] text-[#20284E] font-semibold text-sm rounded-md">
                     Ver
                   </button>
                 </div>
