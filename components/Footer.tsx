@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         {/* Email */}
-        <div className="flex items-center">
+        <div className="flex flex-col md:flex-row items-center">
           <FaEnvelope className="text-3xl text-white mr-4" />
           <div>
             <p className="font-bold">Correo:</p>

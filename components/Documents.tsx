@@ -5,12 +5,12 @@ const Documents: React.FC = () => {
     <div className="py-20 flex justify-center items-center bg-gradient-to-b from-[#2925CC] to-[#4B48E5]">
       <div className="text-center">
         {/* Title */}
-        <h1 className="text-white font-bold font-sans text-2xl md:text-3xl mb-4">
+        <h1 className="text-white font-bold font-sans text-2xl md:text-3xl mb-4 w-auto">
           Documentos oficiales y resoluciones clave
         </h1>
 
         {/* Subtitle */}
-        <p className="text-[#F5F8FC] font-sans text-2xl mb-8 px-52">
+        <p className="text-[#F5F8FC] font-sans text-2xl mb-8 px-10 md:px-52 w-auto">
           Encuentra en esta sección resoluciones, fallos y documentos oficiales
           que reflejan los avances y compromisos del PNIS.
         </p>

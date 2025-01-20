@@ -9,7 +9,7 @@ const Analysis: React.FC = () => {
       </h2>
       <div className="flex flex-col lg:flex-row lg:justify-around  items-center">
         {/* Card 1 */}
-        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[320px] md:w-[380px] mb-10 lg:mb-0">
+        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[350px] mb-10 lg:mb-0">
           <div className="h-[180px]">
             <Image
               src="/analisis1.png"
@@ -35,7 +35,7 @@ const Analysis: React.FC = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[320px] md:w-[380px]">
+        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[350px]">
           <div className="h-[180px]">
             <Image
               src="/analisis2.png"

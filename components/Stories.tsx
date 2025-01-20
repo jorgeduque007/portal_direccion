@@ -79,7 +79,7 @@ const Carousel = () => {
           ))}
         </div>
       </div>
-      <p className="mx-auto text-center mt-8 text-3xl font-sans text-black px-52">
+      <p className="mx-auto text-center mt-8 text-3xl font-sans text-black px-10 md:px-52">
         Descubre historias de cambio y progreso a través de crónicas emotivas
         que reflejan el impacto del PNIS en las comunidades.
       </p>
