@@ -28,7 +28,7 @@ export default function Home() {
         <title>Portal DSCI</title>
       </Head>
       <div>
-        <Information />
+       {/*  <Information /> */}
         <Results />
         <Stories />
         <Analysis />
