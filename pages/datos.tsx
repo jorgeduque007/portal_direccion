@@ -34,13 +34,13 @@ const DataPage: React.FC = () => {
               height={400}
             />
             {/* Green Shape */}
-            {/* <Image
+            <Image
               src="/figure.png"
               alt="Green Shape"
               className="absolute top-0 right-0 transform translate-x-[50px] -translate-y-[50px] w-[200px] h-[200px] z-[-1]"
               width={200}
               height={200}
-            /> */}
+            />
           </div>
         </div>
       </div>

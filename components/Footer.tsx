@@ -4,9 +4,7 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaYoutube, FaInstagram, FaLinkedin
 const Footer: React.FC = () => {
   return (
     <div className="w-full py-16 bg-[#0A0C46] flex items-center justify-around px-16">
-      {/* Grid Container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-{/* Left Section */}
+      {/* Left Section */}
       <div className="text-white">
         {/* Address */}
         <div className="flex items-start mb-8">
@@ -64,9 +62,6 @@ const Footer: React.FC = () => {
           </button>
         </div>
       </div>
-
-      </div>
-      
     </div>
   );
 };
