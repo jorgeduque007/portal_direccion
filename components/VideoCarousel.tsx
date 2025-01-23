@@ -25,7 +25,7 @@ const VideoCarousel: React.FC = () => {
         navigation
         freeMode={true}
         loop
-        slidesPerView={3} // Mostrar 2 slides a la vez
+        slidesPerView={1} // Mostrar 2 slides a la vez
         spaceBetween={20} // Espacio entre los slides en píxeles
         breakpoints={{
           640: { slidesPerView: 1, spaceBetween: 10 },
