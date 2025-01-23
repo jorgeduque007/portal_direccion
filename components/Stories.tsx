@@ -1,4 +1,5 @@
 import { useState } from "react";
+import VideoCarousel from "./VideoCarousel";
 
 const Carousel = () => {
   const slides = [
@@ -44,41 +45,9 @@ const Carousel = () => {
         <h2 className="text-3xl md:text-4xl font-sans font-bold text-[#02033B] mb-6">
           Historias que inspiran: Crónicas del PNIS
         </h2>
-        <div className="relative">
-          {/* Slides */}
-          <div
-            className="flex transition-transform duration-500"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-          ></div>
-
-          {/* Controles */}
-          <button
-            onClick={handlePrev}
-            className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-200"
-          >
-            ❮
-          </button>
-          <button
-            onClick={handleNext}
-            className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md hover:bg-gray-200"
-          >
-            ❯
-          </button>
-        </div>
-
-        {/* Indicadores */}
-        <div className="mt-6 flex justify-center space-x-3">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentIndex(index)}
-              className={`w-3 h-3 rounded-full ${
-                currentIndex === index ? "bg-blue-900" : "bg-gray-400"
-              }`}
-            />
-          ))}
-        </div>
       </div>
+
+      <VideoCarousel />
       <p className="mx-auto text-center mt-8 text-3xl font-sans text-black px-10 md:px-52">
         Descubre historias de cambio y progreso a través de crónicas emotivas
         que reflejan el impacto del PNIS en las comunidades.
