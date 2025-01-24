@@ -49,6 +49,9 @@ const Header: React.FC = () => {
         {/* Menú completo */}
         <ul className="hidden md:flex space-x-6">
           <li>
+            <Link href="/">Inicio</Link>
+          </li>
+          <li>
             <Link href="/datos">Cifras</Link>
           </li>
           <li>
