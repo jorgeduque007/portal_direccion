@@ -34,11 +34,11 @@ const Information: React.FC = () => {
           </div>
           <div className="relative">
             <Image
-              src="/homeheader2.png"
+              src="/headerhd2.png"
               alt="People"
               className="rounded-[20px] object-cover w-full"
-              width={550}
-              height={400}
+              width={3015}
+              height={2675}
             />
           </div>
         </div>
