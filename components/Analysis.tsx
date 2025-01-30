@@ -4,12 +4,12 @@ import Image from "next/image";
 const Analysis: React.FC = () => {
   return (
     <div className="h-auto py-10 bg-[#F7C741] items-center justify-center ">
-      <h2 className="text-[50px] font-sans font-bold text-[#20284E] mb-10 text-center">
+      <h2 className="text-[50px] font-sans font-bold text-[#20284E] mb-20 text-center">
         Análisis e información clave
       </h2>
-      <div className="flex flex-col lg:flex-row lg:justify-around  items-center">
+      <div className="flex flex-col lg:flex-row lg:justify-center lg:gap-x-36 items-center lg:px-10">
         {/* Card 1 */}
-        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[350px] mb-10 lg:mb-0">
+        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[450px] mb-10 lg:mb-0">
           <div className="h-[180px]">
             <Image
               src="/analisis1.png"
@@ -35,7 +35,7 @@ const Analysis: React.FC = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[350px]">
+        <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[450px]">
           <div className="h-[180px]">
             <Image
               src="/analisis2.png"
