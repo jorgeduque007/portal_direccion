@@ -19,7 +19,9 @@ const Gender: React.FC = () => {
 
           <div>
             <a
-              href="#"
+              href="https://www.renovacionterritorio.gov.co/#/es/publicacion/292/enfoque-de-genero-direccion-de-sustitucion"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 bg-[#FFC247] text-[#091133] font-extrabold font-inter text-sm rounded-full hover:bg-[#EAA63C] transition duration-300"
             >
               Informes y lineamientos de género

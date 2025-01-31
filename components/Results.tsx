@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 const Results: React.FC = () => {
   return (
@@ -13,13 +14,13 @@ const Results: React.FC = () => {
           gráficas y reportes actualizados.
         </p>
         <div className="flex">
-          <a
-            href="#"
+          <Link
+            href="/datos"
             className="inline-flex items-center px-6 py-3 text-[15px] font-extrabold text-white bg-[#4335DE] rounded-full hover:bg-[#3722c5] transition-all w-auto"
           >
             Explorar avances en datos
             <FaArrowRight className="ml-2" />
-          </a>
+          </Link>
         </div>
         
       </div>

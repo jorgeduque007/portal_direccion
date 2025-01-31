@@ -56,8 +56,12 @@ export default function Home() {
       <div>
         <Information />
         <Results />
-        <Stories />
-        <Analysis />
+        <div id="stories">
+          <Stories />
+        </div>
+        <div id="analysis">
+          <Analysis />
+        </div>
         <Implementation />
         <Documents />
         <Gender />

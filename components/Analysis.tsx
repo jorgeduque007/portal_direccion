@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Analysis: React.FC = () => {
   return (
@@ -28,9 +29,11 @@ const Analysis: React.FC = () => {
               Accede al boletín con los precios actuales de la coca, clave para
               entender el contexto de las regiones.
             </p>
-            <button className="mt-5 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
-              Ver
-            </button>
+            <Link href="boletin">
+              <button className="mt-5 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
+                Ver
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -54,9 +57,11 @@ const Analysis: React.FC = () => {
               Conoce los hitos y resultados destacados del programa en nuestro
               boletín mensual.
             </p>
-            <button className="mt-11 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
-              Ver
-            </button>
+            <Link href="boletin-general">
+              <button className="mt-11 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
+                Ver
+              </button>
+            </Link>
           </div>
         </div>
       </div>

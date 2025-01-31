@@ -55,13 +55,13 @@ const Header: React.FC = () => {
             <Link href="/datos">Cifras</Link>
           </li>
           <li>
-            <Link href="/">Historias</Link>
+            <Link href="/#stories">Historias</Link>
           </li>
           <li>
-            <Link href="/">Documentos</Link>
+            <Link href="/documentos">Documentos</Link>
           </li>
           <li>
-            <Link href="/analisis">Análisis</Link>
+            <Link href="/#analysis">Análisis</Link>
           </li>
         </ul>
 
@@ -104,7 +104,7 @@ const Header: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" onClick={() => setIsOpen(false)}>
+                <Link href="/#stories" onClick={() => setIsOpen(false)}>
                   <div className="flex items-center">
                     <FaArrowRight className="mr-2" />
                     Historias
@@ -112,7 +112,7 @@ const Header: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/" onClick={() => setIsOpen(false)}>
+                <Link href="/documentos" onClick={() => setIsOpen(false)}>
                   <div className="flex items-center">
                     <FaArrowRight className="mr-2" />
                     Documentos
@@ -120,7 +120,7 @@ const Header: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/analisis" onClick={() => setIsOpen(false)}>
+                <Link href="/#analysis" onClick={() => setIsOpen(false)}>
                   <div className="flex items-center">
                     <FaArrowRight className="mr-2" />
                     Análisis

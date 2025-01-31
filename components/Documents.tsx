@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Documents: React.FC = () => {
   return (
@@ -17,13 +18,13 @@ const Documents: React.FC = () => {
 
         {/* Button */}
         <div>
-          <a
-            href="#"
+          <Link
+            href="/documentos"
             className="inline-flex items-center justify-center px-6 py-3 bg-[#F3C049] text-[#091133] font-extrabold font-inter text-sm rounded-full hover:bg-[#EAA63C] transition duration-300"
           >
             Accede a los fallos y resoluciones
             <span className="ml-2 text-lg">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

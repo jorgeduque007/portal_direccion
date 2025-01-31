@@ -93,9 +93,14 @@ const Implementation: React.FC = () => {
 
         {/* Button */}
         <div className="flex justify-center mt-8">
-          <button className="px-6 py-2 bg-transparent border-2 border-[#091133] text-[#091133] font-bold rounded-full hover:bg-[#091133] hover:text-white transition duration-300">
+          <a
+            href="https://www.renovacionterritorio.gov.co/#/es/direcciones/Sustitucion-de-Cultivos-Ilicitos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 bg-transparent border-2 border-[#091133] text-[#091133] font-bold rounded-full hover:bg-[#091133] hover:text-white transition duration-300"
+          >
             Más información
-          </button>
+          </a>
         </div>
       </div>
     </div>
