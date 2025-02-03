@@ -9,7 +9,7 @@ const Information: React.FC = () => {
       <div className="flex lg:min-h-[calc(100vh-100px)] bg-gradient-to-b from-[#EEF5FF] to-[#F7FAFF]">
         <div className=" grid grid-cols-1 lg:grid-cols-2 lg:items-center ">
           {/* Text Section */}
-          <div className="text-left lg:pl-56 md:w-3/4 lg:w-auto">
+          <div className="text-left pl-20 lg:pl-56 py-10 lg:py-0  md:w-3/4 lg:w-auto">
             <h1 className="text-[55px] leading-[1.2] font-bold text-[#191847] mb-6 ">
               Tu portal de información sobre los avances y resultados de la DSCI
             </h1>
