@@ -7,12 +7,24 @@ import Footer from "../components/Footer";
 
 const BoletinPage: React.FC = () => {
   const resolutions = [
-    "Boletín dic 2024",
-    "boletín enero 2025",
-    "boletín pnis nov 2024",
-    "boletín pnis oct 2024",
-    "boletín pnis sept 2024",
+    "Boletín-PNIS_20-dic",
+    "Boletín-PNIS_20-dic",
+    "Boletín-PNIS_20-dic",
+    "Boletín-PNIS_20-dic",
+    "Boletín-PNIS_20-dic",
   ];
+
+  const handleDownload = () => {
+    // Ruta al archivo PDF en la carpeta public
+    const pdfUrl = '/Boletín-PNIS_20-dic.pdf';
+    // Crear un enlace temporal
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Boletín-PNIS_20-dic.pdf'; // Nombre del archivo que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <>
@@ -21,7 +33,7 @@ const BoletinPage: React.FC = () => {
           {/* Text Section */}
           <div className="text-left p-10 md:w-3/4 lg:w-auto">
             <h1 className="text-[55px] leading-[1.2] font-bold text-[#02033B] mb-6">
-              Precios de la Coca: Análisis y Seguimiento
+              Boletín Informativo del PNIS
             </h1>
             <p className="text-base text-[#02033B] font-inter leading-relaxed mb-6">
               Conoce los últimos avances, noticias y artículos relevantes sobre
@@ -65,6 +77,7 @@ const BoletinPage: React.FC = () => {
               <li
                 key={index}
                 className="border-b border-gray-300 py-3 px-4 text-gray-700 text-sm font-medium"
+                onClick={handleDownload}
               >
                 {resolution}
               </li>

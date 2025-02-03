@@ -21,13 +21,13 @@ const BoletinPage: React.FC = () => {
           {/* Text Section */}
           <div className="text-left p-10 md:w-3/4 lg:w-auto">
             <h1 className="text-[55px] leading-[1.2] font-bold text-[#02033B] mb-6">
-              Boletín Informativo del PNIS
+              Precios de la Coca: Análisis y Seguimiento
             </h1>
             <p className="text-base text-[#02033B] font-inter leading-relaxed mb-6">
-              Conoce los últimos avances, noticias y artículos relevantes sobre
-              la implementación del PNIS a través de nuestro boletín. Esta es tu
-              fuente principal para mantenerte actualizado sobre las acciones y
-              compromisos del programa.
+              Accede a la información actualizada sobre los precios de la coca
+              en el mercado ilícito y sus impactos en las comunidades. Conoce
+              los datos clave que sustentan las políticas de sustitución y los
+              esfuerzos para reducir la dependencia de cultivos ilícitos.
             </p>
           </div>
           {/* Image Section */}
