@@ -14,6 +14,18 @@ const BoletinPage: React.FC = () => {
     "boletín pnis sept 2024",
   ];
 
+  const handleDownload = () => {
+    // Ruta al archivo PDF en la carpeta public
+    const pdfUrl = "/DSCI-Tamaño Carta.pdf";
+    // Crear un enlace temporal
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "DSCI-Tamaño Carta.pdf"; // Nombre del archivo que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div className="flex lg:min-h-[calc(100vh-100px)] bg-gradient-to-b from-[#EEF5FF] to-[#F7FAFF]">
@@ -65,6 +77,7 @@ const BoletinPage: React.FC = () => {
               <li
                 key={index}
                 className="border-b border-gray-300 py-3 px-4 text-gray-700 text-sm font-medium"
+                onClick={handleDownload}
               >
                 {resolution}
               </li>

@@ -7,12 +7,24 @@ import Footer from "../components/Footer";
 
 const DocumentosPage: React.FC = () => {
   const resolutions = [
-    "RESOLUCIÓN PNIS–2025: IMPLEMENTACIÓN DE PLAN DE ACCIÓN EN ZONAS AFECTADAS",
-    "RESOLUCIÓN PNIS–2025: IMPLEMENTACIÓN DE PLAN DE ACCIÓN EN ZONAS AFECTADAS",
-    "RESOLUCIÓN PNIS–2025: IMPLEMENTACIÓN DE PLAN DE ACCIÓN EN ZONAS AFECTADAS",
-    "RESOLUCIÓN PNIS–2025: IMPLEMENTACIÓN DE PLAN DE ACCIÓN EN ZONAS AFECTADAS",
-    "RESOLUCIÓN PNIS–2025: IMPLEMENTACIÓN DE PLAN DE ACCIÓN EN ZONAS AFECTADAS",
+    "Resolución 0027 de 2024",
+    "Resolución 0027 de 2024",
+    "Resolución 0027 de 2024",
+    "Resolución 0027 de 2024",
+    "Resolución 0027 de 2024",
   ];
+
+  const handleDownload = () => {
+    // Ruta al archivo PDF en la carpeta public
+    const pdfUrl = "/Resolución0027de2024.pdf";
+    // Crear un enlace temporal
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Resolución0027de2024.pdf"; // Nombre del archivo que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <>
@@ -65,6 +77,7 @@ const DocumentosPage: React.FC = () => {
               <li
                 key={index}
                 className="border-b border-gray-300 py-3 px-4 text-gray-700 text-sm font-medium"
+                onClick={handleDownload}
               >
                 {resolution}
               </li>
