@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Implementation: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-gradient-to-r from-gray-100 to-gray-200">
-      <div className="text-center m-12">
+    <div className="flex flex-col px-10 lg:px-56 justify-center items-center bg-gradient-to-r from-gray-100 to-gray-200">
+      <div className="text-center my-12">
         <h1 className="text-[#02033B] font-bold text-2xl">
           Ruta de implementación
         </h1>
@@ -12,7 +12,7 @@ const Implementation: React.FC = () => {
           Resolución 0021 del 16 de julio de 2024
         </p>
       </div>
-      <div className="mx-10 md:mx-28 w-auto mb-12 bg-white shadow-lg rounded-3xl p-8">
+      <div className="w-auto mb-12 bg-white shadow-lg rounded-3xl p-8">
         {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
           {/* Item 1 */}

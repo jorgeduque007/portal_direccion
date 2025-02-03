@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Gender: React.FC = () => {
   return (
-    <div className="flex items-center justify-center py-16 bg-white">
+    <div className="flex items-center justify-center py-16 lg:px-56 bg-white">
       <div className="flex flex-col lg:flex-row lg:justify-around  items-center gap-8 max-w-5xl">
         {/* Text Section */}
         <div className="flex-1 mx-20 lg:mx-0">
