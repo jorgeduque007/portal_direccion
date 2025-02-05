@@ -32,10 +32,10 @@ const DocumentosPage: React.FC = () => {
         <div className=" grid grid-cols-1 lg:grid-cols-2 lg:items-center ">
           {/* Text Section */}
           <div className="text-left p-10 md:w-3/4 lg:w-auto">
-            <h1 className="text-[55px] leading-[1.2] font-bold text-[#02033B] mb-6">
+            <h1 className="text-[55px] font-sans leading-[1.2] font-bold text-[#02033B] mb-6">
               Resoluciones y Fallos
             </h1>
-            <p className="text-base text-[#02033B] font-inter leading-relaxed mb-6">
+            <p className="text-base font-sans text-[#02033B] leading-relaxed mb-6">
               En esta sección podrás consultar y descargar las resoluciones,
               fallos y otros documentos oficiales clave relacionados con la
               implementación del PNIS. Accede fácilmente a toda la información
@@ -69,7 +69,7 @@ const DocumentosPage: React.FC = () => {
       </div>
       <div className="flex items-center justify-center bg-[#E0EAF9] py-10">
         <div className="w-full max-w-[1200px] p-5 ">
-          <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+          <h1 className="text-2xl font-sans font-bold text-gray-800 mb-6 text-center">
             Acceso a Resoluciones y Fallos
           </h1>
           <ul className="w-full max-w-2xl mx-auto">

@@ -12,10 +12,10 @@ const DataPage: React.FC = () => {
         <div className=" grid grid-cols-1 lg:grid-cols-2 lg:items-center ">
           {/* Text Section */}
           <div className="text-left p-10 md:w-3/4 lg:w-auto">
-             <h1 className="text-[55px] leading-[1.2] font-bold text-[#191847] mb-6">
+             <h1 className="text-[55px] font-sans leading-[1.2] font-bold text-[#191847] mb-6">
               Resultados en cifras
             </h1>
-            <p className="text-base text-[#02033B] font-inter leading-relaxed mb-6">
+            <p className="text-base font-sans text-[#02033B] leading-relaxed mb-6">
               Explora los datos y avances del PNIS en tiempo real. Visualiza
               estadísticas, gráficas y reportes interactivos que reflejan el
               impacto de los programas de sustitución de cultivos y el progreso

@@ -21,16 +21,16 @@ const Analysis: React.FC = () => {
             />
           </div>
           <div className="p-10 h-[300px] lg:h-[400px] xl:h-[320px]">
-            <h3 className="text-3xl	font-bold font-sans text-[#20284E]">
+            <h3 className="text-3xl font-sans	font-bold text-[#20284E]">
               Boletín <br />
               Precios de la coca
             </h3>
-            <p className="text-xl	 font-sans text-[#02033B] mt-3">
+            <p className="text-xl font-sans text-[#02033B] mt-3">
               Accede al boletín con los precios actuales de la coca, clave para
               entender el contexto de las regiones.
             </p>
             <Link href="boletin">
-              <button className="mt-5 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
+              <button className="mt-5 font-sans px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
                 Ver
               </button>
             </Link>
@@ -49,16 +49,16 @@ const Analysis: React.FC = () => {
             />
           </div>
           <div className="p-10 h-[300px] lg:h-[400px] xl:h-[320px]">
-            <h3 className="text-3xl	 font-bold font-sans text-[#20284E]">
+            <h3 className="text-3xl font-sans font-bold text-[#20284E]">
               Boletín <br />
               Avance general PNIS
             </h3>
-            <p className="text-xl	 font-sans text-[#02033B] mt-3">
+            <p className="text-xl font-sans text-[#02033B] mt-3">
               Conoce los hitos y resultados destacados del programa en nuestro
               boletín mensual.
             </p>
             <Link href="boletin-general">
-              <button className="mt-5 px-4 py-2 bg-[#B6D542] text-[#20284E] font-semibold text-sm rounded-md">
+              <button className="mt-5 px-4 py-2 bg-[#B6D542] font-sans text-[#20284E] font-semibold text-sm rounded-md">
                 Ver
               </button>
             </Link>

@@ -10,12 +10,12 @@ const Information: React.FC = () => {
         <div className=" grid grid-cols-1 lg:grid-cols-2 lg:items-center ">
           {/* Text Section */}
           <div className="text-left pl-20 lg:pl-56 py-10 lg:py-0  md:w-3/4 lg:w-auto">
-            <h1 className="text-[55px] leading-[1.2] font-bold text-[#191847] mb-6 ">
+            <h1 className="text-[55px] font-sans leading-[1.2] font-bold text-[#191847] mb-6 ">
               Tu portal de información sobre los avances y resultados de la DSCI
             </h1>
             <Link
               href="/datos"
-              className="font-inter inline-flex items-center px-6 py-3 text-[19px] font-extrabold	 text-[#191847] bg-[#FFA000] rounded-full hover:bg-[#FF8C00] transition-all"
+              className="inline-flex items-center px-6 py-3 text-[19px] font-sans font-bold	 text-[#191847] bg-[#FFA000] rounded-full hover:bg-[#FF8C00] transition-all"
             >
               Ver datos y gráficos de avances
               <FaArrowRight className="ml-2" />

@@ -19,7 +19,7 @@ const VideoCarousel: React.FC = () => {
   ]; // IDs de los videos de YouTube
 
   return (
-    <div className="w-full mx-auto px-10">
+    <div className="w-full font-sans mx-auto px-10">
       <Swiper
         modules={[Navigation, Pagination, Autoplay, FreeMode]}
         navigation

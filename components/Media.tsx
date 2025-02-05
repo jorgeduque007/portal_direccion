@@ -35,7 +35,7 @@ const Media = () => {
       {/* Card 1 */}
       <div className="flex flex-col items-center w-full max-w-xl">
         <div className="flex items-center bg-white rounded-full px-4 py-2 mb-4 shadow">
-          <span className="text-black font-bold text-sm">
+          <span className="text-black font-sans font-bold text-sm">
             <FontAwesomeIcon icon={faXTwitter} className="text-black text-xl" />{" "}
             Post de @Soysustitucion
           </span>
@@ -74,7 +74,7 @@ const Media = () => {
       <div className="flex flex-col items-center w-full max-w-xl sm:col-span-1 lg:col-span-1">
         <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 mb-4  shadow">
           <FontAwesomeIcon icon={faWhatsapp} className="text-black text-xl" />
-          <span className="text-black font-bold text-sm">Canal de WTP</span>
+          <span className="text-black font-sans font-bold text-sm">Canal de WTP</span>
         </div>
         <div className="w-full bg-gray-300 rounded-lg mt-6">
           <Image

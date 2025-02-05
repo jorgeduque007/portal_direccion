@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-[#F3F8FF] text-[#02033B] h-[100px] font-inter font-bold text-[24px]">
+    <header className="bg-[#F3F8FF] text-[#02033B] h-[100px] font-bold text-[24px]">
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -47,7 +47,7 @@ const Header: React.FC = () => {
         </button>
 
         {/* Menú completo */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden font-sans md:flex space-x-6">
           <li>
             <Link href="/">Inicio</Link>
           </li>
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
               ✖
             </button>
 
-            <ul className="flex flex-col  text-[#FFA000] items-start justify-center h-full space-y-6 ml-8">
+            <ul className="flex flex-col font-sans text-[#FFA000] items-start justify-center h-full space-y-6 ml-8">
               <li>
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   <div className="flex items-center">

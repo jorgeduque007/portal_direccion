@@ -51,6 +51,11 @@ export default function Home() {
         <meta property="og:type" content="website"></meta>
         {/* <meta property="og:url" content="https://portal.direccionsustitucion-pnis.gov.co/">
       <meta property="og:image" content="https://portal.direccionsustitucion-pnis.gov.co/images/DSC_30.png"></meta> */}
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="https://portal.renovacionterritorio.gov.co/info/uaect/web/portal/imagenes/favicon.ico"
+        ></link>
       </Head>
 
       <div>

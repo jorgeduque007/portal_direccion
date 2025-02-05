@@ -42,13 +42,13 @@ const Carousel = () => {
   return (
     <section className="bg-[#C2DE35] py-16">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-sans font-bold text-[#02033B] mb-14">
+        <h2 className="text-3xl font-sans md:text-4xl font-bold text-[#02033B] mb-14">
           Historias que inspiran: Crónicas del PNIS
         </h2>
       </div>
 
       <VideoCarousel />
-      <p className="mx-auto text-center mt-8 text-2xl	font-sans text-black px-10 md:px-52">
+      <p className="mx-auto text-center mt-8 text-2xl font-sans text-black px-10 md:px-52">
         Descubre historias de cambio y progreso a través de crónicas emotivas
         que reflejan el impacto del PNIS en las comunidades.
       </p>

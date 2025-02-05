@@ -32,10 +32,10 @@ const BoletinPage: React.FC = () => {
         <div className=" grid grid-cols-1 lg:grid-cols-2 lg:items-center ">
           {/* Text Section */}
           <div className="text-left p-10 md:w-3/4 lg:w-auto">
-            <h1 className="text-[55px] leading-[1.2] font-bold text-[#02033B] mb-6">
+            <h1 className="text-[55px] leading-[1.2] font-sans font-bold text-[#02033B] mb-6">
               Boletín Informativo del PNIS
             </h1>
-            <p className="text-base text-[#02033B] font-inter leading-relaxed mb-6">
+            <p className="text-base text-[#02033B] font-sans leading-relaxed mb-6">
               Conoce los últimos avances, noticias y artículos relevantes sobre
               la implementación del PNIS a través de nuestro boletín. Esta es tu
               fuente principal para mantenerte actualizado sobre las acciones y
@@ -69,7 +69,7 @@ const BoletinPage: React.FC = () => {
       </div>
       <div className="flex items-center justify-center bg-[#E0EAF9] py-10">
         <div className="w-full max-w-[1200px] p-5 ">
-          <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+          <h1 className="text-2xl font-sans font-bold text-gray-800 mb-6 text-center">
             Boletines
           </h1>
           <ul className="w-full max-w-2xl mx-auto">

@@ -6,7 +6,7 @@ const Documents: React.FC = () => {
     <div className="py-20 flex justify-center items-center bg-gradient-to-b from-[#2925CC] to-[#4B48E5]">
       <div className="text-center">
         {/* Title */}
-        <h1 className="text-white font-bold font-sans text-2xl md:text-3xl mb-4 px-10 md:px-52 w-auto">
+        <h1 className="text-white font-sans font-bold text-2xl md:text-3xl mb-4 px-10 md:px-52 w-auto">
           Documentos oficiales y resoluciones clave
         </h1>
 
@@ -20,7 +20,7 @@ const Documents: React.FC = () => {
         <div>
           <Link
             href="/documentos"
-            className="inline-flex items-center justify-center px-6 py-3 bg-[#F3C049] text-[#091133] font-extrabold font-inter text-sm rounded-full hover:bg-[#EAA63C] transition duration-300"
+            className="inline-flex items-center justify-center font-sans px-6 py-3 bg-[#F3C049] text-[#091133] font-extrabold text-sm rounded-full hover:bg-[#EAA63C] transition duration-300"
           >
             Accede a los fallos y resoluciones
             <span className="ml-2 text-lg">→</span>

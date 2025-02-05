@@ -21,22 +21,22 @@ const Footer: React.FC = () => {
           <div className="flex items-start mb-8">
             <FaMapMarkerAlt className="text-3xl text-white mr-4" />
             <div>
-              <p className="font-bold">Dirección:</p>
-              <p>
+              <p className="font-bold font-sans">Dirección:</p>
+              <p className="font-sans">
                 Carrera 7 No. 26-20,
                 <br />
                 Edificio Tequendama (Pisos 32 - 33)
               </p>
-              <p className="font-bold mt-2">Horario de Atención:</p>
-              <p>Lunes a Viernes 8:00 am - 5:00 pm.</p>
+              <p className="font-bold mt-2 font-sans">Horario de Atención:</p>
+              <p className="font-sans">Lunes a Viernes 8:00 am - 5:00 pm.</p>
             </div>
           </div>
           {/* Phone */}
           <div className="flex items-center mb-4">
             <FaPhone className="text-3xl text-white mr-4" />
             <div>
-              <p className="font-bold">Línea PQRSD Conmutador:</p>
-              <p>(+57) 601 422 10 30</p>
+              <p className="font-bold font-sans">Línea PQRSD Conmutador:</p>
+              <p className="font-sans">(+57) 601 422 10 30</p>
             </div>
           </div>
           {/* Email */}
@@ -44,10 +44,10 @@ const Footer: React.FC = () => {
             <FaEnvelope className="text-3xl text-white mr-4" />
             <div>
               <p className="font-bold">Correo:</p>
-              <p>
+              <p className="font-sans">
                 <a
                   href="mailto:enlaceciudadano@renovacionterritorio.gov.co"
-                  className="text-white underline"
+                  className="text-white font-sans underline"
                 >
                   enlaceciudadano@renovacionterritorio.gov.co
                 </a>
@@ -103,7 +103,7 @@ const Footer: React.FC = () => {
           </div>
           {/* Social Media Button */}
           <div>
-            <div className="bg-white text-[#0A0C46] font-bold py-2 px-4 rounded-full">
+            <div className="bg-white font-sans text-[#0A0C46] font-bold py-2 px-4 rounded-full">
               Síguenos en todas nuestras redes sociales
             </div>
           </div>
