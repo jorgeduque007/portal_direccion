@@ -56,11 +56,11 @@ const DocumentosPage: React.FC = () => {
               </div>
               <div className="relative">
                 <Image
-                  src="/home-header-2.png"
+                  src="/headerdocumentos.png"
                   alt="People"
                   className="rounded-[20px] object-cover w-full"
-                  width={550}
-                  height={200}
+                  width={2811}
+                  height={2128}
                 />
               </div>
             </div>

@@ -13,10 +13,10 @@ const Analysis: React.FC = () => {
         <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[450px] mb-10 lg:mb-0">
           <div className="h-[180px]">
             <Image
-              src="/analisis1.png"
+              src="/boletincocamini.png"
               alt="Group working together"
-              width={600}
-              height={400}
+              width={1800}
+              height={768}
               className="w-full h-full object-cover"
             />
           </div>
@@ -41,10 +41,10 @@ const Analysis: React.FC = () => {
         <div className="bg-white rounded-3xl shadow-md overflow-hidden w-[450px]">
           <div className="h-[180px]">
             <Image
-              src="/analisis2.png"
+              src="/boletingeneralmini.png"
               alt="Group working together"
-              width={600}
-              height={400}
+              width={1800}
+              height={720}
               className="w-full h-full object-cover"
             />
           </div>

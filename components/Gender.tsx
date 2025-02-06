@@ -33,10 +33,10 @@ const Gender: React.FC = () => {
         <div className="flex-1  mx-20 lg:mx-0">
           <div className="w-full h-full border-8 border-[#2925CC]">
             <Image
-              src="/mujergenero.png"
+              src="/mujerygenero.png"
               alt="Group working together"
-              width={600}
-              height={400}
+              width={2320}
+              height={1585}
               className="w-full h-full object-cover"
             />
           </div>

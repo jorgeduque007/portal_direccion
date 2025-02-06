@@ -47,20 +47,20 @@ const BoletinPage: React.FC = () => {
             <div className="relative w-full ">
               <div className="absolute inset-0 flex items-center justify-center">
                 <Image
-                  src="/figure.png"
+                  src="/figure2.png"
                   alt="Overlaid Shape"
                   className="w-full"
                   width={847}
                   height={677}
                 />
               </div>
-              <div className="relative">
+              <div className="relative m-5">
                 <Image
-                  src="/home-header-2.png"
+                  src="/headerboletingeneral.png"
                   alt="People"
                   className="rounded-[20px] object-cover w-full"
-                  width={550}
-                  height={200}
+                  width={2811}
+                  height={2128}
                 />
               </div>
             </div>
