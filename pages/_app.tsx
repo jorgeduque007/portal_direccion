@@ -1,6 +1,10 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Header from '../components/Header';
+
+import dynamic from "next/dynamic";
+
+const Header = dynamic(() => import("../components/Header"), { ssr: false });
+
 
 // Import Swiper styles
 import 'swiper/css';

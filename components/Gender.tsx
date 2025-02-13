@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Gender: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const Gender: React.FC = () => {
             mujeres y población LGBTI, en línea con el Acuerdo Final de Paz.
           </p>
 
-          <div>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
             <a
               href="https://www.renovacionterritorio.gov.co/#/es/publicacion/292/enfoque-de-genero-direccion-de-sustitucion"
               target="_blank"
@@ -27,18 +28,26 @@ const Gender: React.FC = () => {
               Informes y lineamientos de género
               <span className="ml-2 text-lg">→</span>
             </a>
-          </div>
+          </motion.div>
         </div>
         {/* Image Section */}
         <div className="flex-1  mx-20 lg:mx-0">
           <div className="w-full h-full border-8 border-[#2925CC]">
-            <Image
-              src="/mujerygenero.png"
-              alt="Group working together"
-              width={2320}
-              height={1585}
-              className="w-full h-full object-cover"
-            />
+            <motion.div
+          
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }} // Se activa solo una vez cuando el 50% del elemento es visible
+              transition={{ duration: 0.8 }}
+            >
+              <Image
+                src="/mujerygenero.png"
+                alt="Group working together"
+                width={2320}
+                height={1585}
+                className="w-full h-full object-cover"
+              />
+            </motion.div>
           </div>
         </div>
       </div>

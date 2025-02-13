@@ -20,7 +20,11 @@ const Results: React.FC = () => {
           Visualiza la información de forma clara y detallada con nuestras
           gráficas y reportes actualizados.
         </p>
-        <div className="flex">
+        <motion.div
+          whileHover={{ scale: 1.03}}
+          whileTap={{ scale: 0.97 }}
+          className="flex"
+        >
           <Link
             href="/datos"
             className="inline-flex items-center px-6 py-3 text-[15px] font-sans font-extrabold text-white bg-[#4335DE] rounded-full hover:bg-[#3722c5] transition-all w-auto"
@@ -28,7 +32,7 @@ const Results: React.FC = () => {
             Explorar avances en datos
             <FaArrowRight className="ml-2" />
           </Link>
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   );

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,19 +50,29 @@ const Header: React.FC = () => {
         {/* Menú completo */}
         <ul className="hidden font-sans md:flex space-x-6">
           <li>
-            <Link href="/">Inicio</Link>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
+              <Link href="/">Inicio</Link>
+            </motion.div>
           </li>
           <li>
-            <Link href="/datos">Cifras</Link>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
+              <Link href="/datos">Cifras</Link>
+            </motion.div>
           </li>
           <li>
-            <Link href="/#stories">Historias</Link>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
+              <Link href="/#stories">Historias</Link>
+            </motion.div>
           </li>
           <li>
-            <Link href="/documentos">Documentos</Link>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
+              <Link href="/documentos">Documentos</Link>
+            </motion.div>
           </li>
           <li>
-            <Link href="/#analysis">Análisis</Link>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
+              <Link href="/#analysis">Análisis</Link>
+            </motion.div>
           </li>
         </ul>
 

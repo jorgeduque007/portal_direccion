@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Implementation: React.FC = () => {
   return (
@@ -14,7 +15,13 @@ const Implementation: React.FC = () => {
       </div>
       <div className="w-auto mb-12 bg-white shadow-lg rounded-3xl p-8">
         {/* Content Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }} // Se activa solo una vez cuando el 50% del elemento es visible
+          transition={{ duration: 0.8 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center"
+        >
           {/* Item 1 */}
           <div>
             <div className="flex justify-center mb-4">
@@ -89,10 +96,14 @@ const Implementation: React.FC = () => {
               en el desarrollo de las alternativas sostenibles de cada región.
             </p>
           </div>
-        </div>
+        </motion.div>
 
         {/* Button */}
-        <div className="flex justify-center mt-8">
+        <motion.div
+          whileHover={{ scale: 1.09 }}
+          whileTap={{ scale: 0.97 }}
+          className="flex justify-center mt-8"
+        >
           <a
             href="https://www.renovacionterritorio.gov.co/#/es/direcciones/Sustitucion-de-Cultivos-Ilicitos"
             target="_blank"
@@ -101,7 +112,7 @@ const Implementation: React.FC = () => {
           >
             Más información
           </a>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

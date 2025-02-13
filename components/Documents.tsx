@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Documents: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const Documents: React.FC = () => {
         </p>
 
         {/* Button */}
-        <div>
+        <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
           <Link
             href="/documentos"
             className="inline-flex items-center justify-center font-sans px-6 py-3 bg-[#F3C049] text-[#091133] font-extrabold text-sm rounded-full hover:bg-[#EAA63C] transition duration-300"
@@ -25,7 +26,7 @@ const Documents: React.FC = () => {
             Accede a los fallos y resoluciones
             <span className="ml-2 text-lg">→</span>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

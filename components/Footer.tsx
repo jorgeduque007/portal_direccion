@@ -9,6 +9,7 @@ import {
   FaFacebookF,
   FaTwitter,
 } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Footer: React.FC = () => {
   return (
@@ -60,46 +61,56 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center text-white">
           {/* Social Media Icons */}
           <div className="flex space-x-4 mb-4">
-            <a
+            <motion.a
+              whileHover={{ scale: 1.3 }}
+              whileTap={{ scale: 0.97 }}
               href="https://www.youtube.com/channel/UCpEuwzI8PqS6xPnvr2-PV5g"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
             >
               <FaYoutube className="text-4xl" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.3 }}
+              whileTap={{ scale: 0.97 }}
               href="https://www.instagram.com/soysustitucion/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <FaInstagram className="text-4xl" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.3 }}
+              whileTap={{ scale: 0.97 }}
               href="https://www.linkedin.com/company/direcci%C3%B3n-de-sustituci%C3%B3n-de-cultivos-de-uso-il%C3%ADcito/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
               <FaLinkedin className="text-4xl" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.3 }}
+              whileTap={{ scale: 0.97 }}
               href="https://web.facebook.com/SoySustitucion"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
             >
               <FaFacebookF className="text-4xl" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.3 }}
+              whileTap={{ scale: 0.97 }}
               href="https://x.com/SoySustitucion"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter"
             >
               <FaTwitter className="text-4xl" />
-            </a>
+            </motion.a>
           </div>
           {/* Social Media Button */}
           <div>
