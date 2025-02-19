@@ -64,11 +64,11 @@ export default function Home() {
         <div id="stories">
           <Stories />
         </div>
-        <div id="analysis">
+        {/* <div id="analysis">
           <Analysis />
-        </div>
+        </div> */}
         <Implementation />
-        <Documents />
+        {/* <Documents /> */}
         <Gender />
         <Media />
         <Footer />

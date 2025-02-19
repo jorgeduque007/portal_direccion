@@ -64,16 +64,16 @@ const Header: React.FC = () => {
               <Link href="/#stories">Historias</Link>
             </motion.div>
           </li>
-          <li>
+          {/* <li>
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
               <Link href="/documentos">Documentos</Link>
             </motion.div>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
               <Link href="/#analysis">Análisis</Link>
             </motion.div>
-          </li>
+          </li> */}
         </ul>
 
         {/* Menú desplegable */}
@@ -122,7 +122,7 @@ const Header: React.FC = () => {
                   </div>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/documentos" onClick={() => setIsOpen(false)}>
                   <div className="flex items-center">
                     <FaArrowRight className="mr-2" />
@@ -137,7 +137,7 @@ const Header: React.FC = () => {
                     Análisis
                   </div>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         )}
