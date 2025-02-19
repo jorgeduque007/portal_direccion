@@ -62,11 +62,6 @@ const Media = () => {
               15 de agosto de 2024
             </a>
           </blockquote>{" "}
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charSet="utf-8"
-          ></script>
         </div>
       </div>
 
