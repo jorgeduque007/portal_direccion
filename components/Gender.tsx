@@ -7,7 +7,10 @@ const Gender: React.FC = () => {
     <div className="flex items-center justify-center py-16 lg:px-56 bg-white">
       <div className="flex flex-col lg:flex-row lg:justify-around  items-center gap-8 max-w-5xl">
         {/* Text Section */}
-        <div className="flex-1 mx-20 lg:mx-0">
+        <motion.div   initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.5 }} // Se activa solo una vez cuando el 50% del elemento es visible
+        transition={{ duration: 0.8 }} className="flex-1 mx-20 lg:mx-0">
           <h2 className="text-2xl font-sans font-bold text-[#02033B] mb-4">
             Enfoque Mujer y género
           </h2>
@@ -29,17 +32,16 @@ const Gender: React.FC = () => {
               <span className="ml-2 text-lg">→</span>
             </a>
           </motion.div>
-        </div>
+        </motion.div>
         {/* Image Section */}
         <div className="flex-1  mx-20 lg:mx-0">
-          <div className="w-full h-full border-8 border-[#2925CC]">
-            <motion.div
-          
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.5 }} // Se activa solo una vez cuando el 50% del elemento es visible
-              transition={{ duration: 0.8 }}
-            >
+          <motion.div
+            whileInView={{ rotate: 360 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
+            className="w-full h-full border-8 border-[#2925CC] bg-[#2925CC]"
+          >
+            <motion.div>
               <Image
                 src="/mujerygenero.png"
                 alt="Group working together"
@@ -48,7 +50,7 @@ const Gender: React.FC = () => {
                 className="w-full h-full object-cover"
               />
             </motion.div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
