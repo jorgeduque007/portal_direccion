@@ -26,7 +26,7 @@ const Implementation: React.FC = () => {
           <div>
             <div className="flex justify-center mb-4">
               <div className="w-12 h-12 flex items-center justify-center bg-[#F5F8FC] rounded-full">
-                <img src="/implementation1.png" alt="Icon" />
+                <img src="/plan.png" alt="Icon" />
               </div>
             </div>
             <h2 className="text-[#02033B] font-sans font-bold text-lg">
@@ -45,7 +45,7 @@ const Implementation: React.FC = () => {
           <div>
             <div className="flex justify-center mb-4">
               <div className="w-12 h-12 flex items-center justify-center bg-[#F5F8FC] rounded-full">
-                <img src="/implementation2.png" alt="Icon" />
+                <img src="/orden.png" alt="Icon" />
               </div>
             </div>
             <h2 className="text-[#02033B] font-sans font-bold text-lg">
@@ -64,7 +64,7 @@ const Implementation: React.FC = () => {
           <div>
             <div className="flex justify-center mb-4">
               <div className="w-12 h-12 flex items-center justify-center bg-[#F5F8FC] rounded-full">
-                <img src="/implementation3.png" alt="Icon" />
+                <img src="/materiasPrimas.png" alt="Icon" />
               </div>
             </div>
             <h2 className="text-[#02033B] font-sans font-bold text-lg">
@@ -83,7 +83,7 @@ const Implementation: React.FC = () => {
           <div>
             <div className="flex justify-center mb-4">
               <div className="w-12 h-12 flex items-center justify-center bg-[#F5F8FC] rounded-full">
-                <img src="/implementation4.png" alt="Icon" />
+                <img src="/apoyoTecnico.png" alt="Icon" />
               </div>
             </div>
             <h2 className="text-[#02033B] font-sans font-bold text-lg">
