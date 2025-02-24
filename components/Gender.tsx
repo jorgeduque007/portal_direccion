@@ -7,10 +7,13 @@ const Gender: React.FC = () => {
     <div className="flex items-center justify-center py-16 lg:px-56 bg-white">
       <div className="flex flex-col lg:flex-row lg:justify-around  items-center gap-8 max-w-5xl">
         {/* Text Section */}
-        <motion.div   initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.5 }} // Se activa solo una vez cuando el 50% del elemento es visible
-        transition={{ duration: 0.8 }} className="flex-1 mx-20 lg:mx-0">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }} // Se activa solo una vez cuando el 50% del elemento es visible
+          transition={{ duration: 0.8 }}
+          className="flex-1 mx-20 lg:mx-0"
+        >
           <h2 className="text-2xl font-sans font-bold text-[#02033B] mb-4">
             Enfoque Mujer y género
           </h2>
@@ -34,20 +37,31 @@ const Gender: React.FC = () => {
           </motion.div>
         </motion.div>
         {/* Image Section */}
-        <div className="flex-1  mx-20 lg:mx-0">
+        <div className="flex-1 relative sm:px-40 px-20 pt-10 lg:w-auto lg:px-0 lg:pt-0 flex justify-center items-center">
           <motion.div
-            whileInView={{ rotate: 360 }}
-            transition={{ duration: 1 }}
-            viewport={{ once: true, amount: 0.5 }}
-            className="w-full h-full border-8 border-[#2925CC] bg-[#2925CC]"
+            className="relative w-full"
           >
-            <motion.div>
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ duration: 1 }}
+              className="absolute inset-0 flex items-center justify-center"
+            >
+              <div className="w-full h-full bg-[#4335DE] rounded-[20px] rotate-[5deg]">
+              </div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 0.8,
+                    delay: 0.5,
+                    ease: [0, 0.71, 0.2, 1.01],
+                }} className="relative">
               <Image
                 src="/mujerygenero.png"
                 alt="Group working together"
                 width={2320}
                 height={1585}
-                className="w-full h-full object-cover"
+                className="rounded-[20px] object-cover w-full rotate-[-7deg]"
               />
             </motion.div>
           </motion.div>
