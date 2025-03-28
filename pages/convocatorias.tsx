@@ -45,7 +45,7 @@ const ConvocatoriasPage: React.FC = () => {
           </h2>
         </div>
 
-        <p className="mx-auto   text-2xl font-sans text-black text-justify px-10 md:px-52">
+        <p className="mx-auto  text-base md:text-2xl font-sans text-black text-justify px-10 md:px-52">
           La Dirección de Sustitución de Cultivos Ilícitos - DSCI, en alianza
           estratégica con la Corporación Parque Tecnológico de Innovación del
           Café y su Caficultura - PARQUE TECNOLÓGICO TECNICAFE y la Cooperativa
@@ -68,7 +68,7 @@ const ConvocatoriasPage: React.FC = () => {
           </h2>
         </div>
 
-        <p className="mx-auto   text-2xl font-sans text-black text-justify px-10 md:px-52">
+        <p className="mx-auto   text-base md:text-2xl font-sans text-black text-justify px-10 md:px-52">
           Podrán participar en la presente invitación, todos los oferentes
           personas naturales (mayores de edad) y jurídicas que, cuenten con
           registro mercantil vigente y cuyo objeto social lo habilite para
@@ -102,7 +102,7 @@ const ConvocatoriasPage: React.FC = () => {
             <span className="font-bold mr-2">Fecha de cierre:</span>
             07 de abril de 2025 a las 10:00 AM
           </h2>
-          <h2 className="text-2xl font-sans md:text-2xl  text-black ">
+          <h2 className="text-xl font-sans md:text-2xl  text-black ">
             <span className="font-bold mr-2">NOTA:</span>
             Todas las comunicaciones deberán ser enviadas a
             cooperativacoobra.1@gmail.com y tecnicafecauca@gmail.com
@@ -114,7 +114,7 @@ const ConvocatoriasPage: React.FC = () => {
             Documentos de la convocatoria
           </h2>
 
-          <ul className="list-disc list-inside text-2xl font-sans text-black mb-8">
+          <ul className="list-disc list-inside text-lg md:text-2xl font-sans text-black mb-8">
             <li className="mb-8 flex items-center gap-2">
               <a
                 href="https://stpnis.blob.core.windows.net/testdsci/Documentos_convocatoria_argelia_UNODC/1._TdR_ACMP_No_01_MA_467-470_Argelia_VB.pdf"
