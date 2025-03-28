@@ -85,7 +85,7 @@ const ConvocatoriasPage: React.FC = () => {
           </h2>
 
           <h2 className="text-2xl font-sans md:text-2xl font-bold text-[#02033B] mb-8">
-            Cronograma de la convocatoria. test sad test 2
+            Cronograma de la convocatoria. test sad test 2 test final
           </h2>
         </div>
       </div>
