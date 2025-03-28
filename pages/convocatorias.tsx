@@ -30,7 +30,7 @@ const ConvocatoriasPage: React.FC = () => {
     <>
       <div className="lg:min-h-[calc(100vh-100px)] bg-gradient-to-b from-[#EEF5FF] to-[#F7FAFF] ">
         <Image
-          src="/proveedores_argelia.jpg"
+          src="/proveedores-argelia2.jpg"
           alt="Overlaid Shape"
           className="w-full"
           width={847}
