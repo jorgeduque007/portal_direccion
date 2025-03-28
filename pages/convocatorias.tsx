@@ -1,7 +1,7 @@
 // pages/data.tsx
 import React from "react";
 import Head from "next/head";
-import { FaArrowRight } from "react-icons/fa";
+import { BsFiletypePdf, BsFiletypeDocx, BsFiletypeXls } from "react-icons/bs";
 import Image from "next/image";
 import Footer from "../components/Footer";
 
@@ -28,7 +28,7 @@ const ConvocatoriasPage: React.FC = () => {
 
   return (
     <>
-      <div className="lg:min-h-[calc(100vh-100px)] bg-gradient-to-b from-[#EEF5FF] to-[#F7FAFF] py-8">
+      <div className="lg:min-h-[calc(100vh-100px)] bg-gradient-to-b from-[#EEF5FF] to-[#F7FAFF] ">
         <Image
           src="/proveedores_argelia.jpg"
           alt="Overlaid Shape"
@@ -40,12 +40,12 @@ const ConvocatoriasPage: React.FC = () => {
           <h2 className="text-3xl font-sans md:text-4xl font-bold text-[#02033B] mb-8">
             Adquisición de Bienes y Servicios
           </h2>
-          <h2 className="text-2xl font-sans md:text-3xl font-bold text-[#02033B] mb-8">
+          <h2 className="text-2xl font-sans md:text-3xl font-bold text-[#02033B] mb-4">
             Convocatoria ACMP 01 de 2025
           </h2>
         </div>
 
-        <p className="mx-auto   text-2xl font-sans text-black px-10 md:px-52">
+        <p className="mx-auto   text-2xl font-sans text-black text-justify px-10 md:px-52">
           La Dirección de Sustitución de Cultivos Ilícitos - DSCI, en alianza
           estratégica con la Corporación Parque Tecnológico de Innovación del
           Café y su Caficultura - PARQUE TECNOLÓGICO TECNICAFE y la Cooperativa
@@ -63,12 +63,12 @@ const ConvocatoriasPage: React.FC = () => {
         </p>
 
         <div className="container mx-auto py-8 px-10 md:px-52">
-          <h2 className="text-3xl font-sans md:text-3xl font-bold text-[#02033B] mb-8">
+          <h2 className="text-3xl font-sans md:text-3xl font-bold text-[#02033B]">
             ¿Quiénes pueden participar?
           </h2>
         </div>
 
-        <p className="mx-auto   text-2xl font-sans text-black px-10 md:px-52">
+        <p className="mx-auto   text-2xl font-sans text-black text-justify px-10 md:px-52">
           Podrán participar en la presente invitación, todos los oferentes
           personas naturales (mayores de edad) y jurídicas que, cuenten con
           registro mercantil vigente y cuyo objeto social lo habilite para
@@ -84,12 +84,95 @@ const ConvocatoriasPage: React.FC = () => {
             Cronograma de la convocatoria
           </h2>
 
-          <h2 className="text-2xl font-sans md:text-2xl font-bold text-[#02033B] mb-8">
-            Cronograma de la convocatoria. TEST FINAL 2
+          <h2 className="text-2xl font-sans md:text-2xl  text-black mb-8">
+            <span className="font-bold mr-2">Apertura:</span>
+            26 de marzo de 2025
+          </h2>
+          <h2 className="text-2xl font-sans md:text-2xl  text-black mb-8">
+            <span className="font-bold mr-2">
+              Recepción de preguntas o solicitud de aclaraciones:
+            </span>
+            Hasta el 31 de marzo de 2025 a las 11:00 AM
+          </h2>
+          <h2 className="text-2xl font-sans md:text-2xl  text-black mb-8">
+            <span className="font-bold mr-2">Publicación de respuestas:</span>
+            02 de abril de 2025
+          </h2>
+          <h2 className="text-2xl font-sans md:text-2xl  text-black mb-8">
+            <span className="font-bold mr-2">Fecha de cierre:</span>
+            07 de abril de 2025 a las 10:00 AM
+          </h2>
+          <h2 className="text-2xl font-sans md:text-2xl  text-black ">
+            <span className="font-bold mr-2">NOTA:</span>
+            Todas las comunicaciones deberán ser enviadas a
+            cooperativacoobra.1@gmail.com y tecnicafecauca@gmail.com
           </h2>
         </div>
+
+        <div className="container mx-auto py-8 px-10 md:px-52">
+          <h2 className="text-3xl font-sans md:text-3xl font-bold text-[#02033B] mb-8">
+            Documentos de la convocatoria
+          </h2>
+
+          <ul className="list-disc list-inside text-2xl font-sans text-black mb-8">
+            <li className="mb-8 flex items-center gap-2">
+              <a
+                href="https://stpnis.blob.core.windows.net/testdsci/Documentos_convocatoria_argelia_UNODC/1._TdR_ACMP_No_01_MA_467-470_Argelia_VB.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex items-center"
+              >
+                <span className="mr-2">•</span>
+                <span className="underline">Términos de Referencia</span>
+                <BsFiletypePdf className="text-3xl text-black ml-2" />
+              </a>
+            </li>
+            <li className="mb-8 flex items-center gap-2">
+              <a
+                href="https://stpnis.blob.core.windows.net/testdsci/Documentos_convocatoria_argelia_UNODC/2._Formato_Presentacion_MA_467-470_Argelia_VB.docx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex items-center"
+              >
+                <span className="mr-2">•</span>
+                <span className="underline">
+                  Formato Presentación MA 467 - 470
+                </span>
+                <BsFiletypeDocx className="text-3xl text-black ml-2" />
+              </a>
+            </li>
+            <li className="mb-8 flex items-center gap-2">
+              <a
+                href="https://stpnis.blob.core.windows.net/testdsci/Documentos_convocatoria_argelia_UNODC/3.Formato_presentacion_de_portafolio_de_bienes_VB.xlsx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex items-center"
+              >
+                <span className="mr-2">•</span>
+                <span className="underline">
+                  Formato presentación de portafolio de bienes
+                </span>
+                <BsFiletypeXls className="text-3xl text-black ml-2" />
+              </a>
+            </li>
+            <li className="mb-8 flex items-center gap-2">
+              <a
+                href="https://stpnis.blob.core.windows.net/testdsci/Documentos_convocatoria_argelia_UNODC/Documento_de_referencia_de_bienes.xlsx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex items-center"
+              >
+                <span className="mr-2">•</span>
+                <span className="underline">
+                  Documento de referencia de bienes
+                </span>
+                <BsFiletypeXls className="text-3xl text-black ml-2" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="flex items-center justify-center bg-[#E0EAF9] py-10">
+      {/* <div className="flex items-center justify-center bg-[#E0EAF9] py-10">
         <div className="w-full max-w-[1200px] p-5 ">
           <h1 className="text-2xl font-sans font-bold text-gray-800 mb-6 text-center">
             Boletines
@@ -106,7 +189,7 @@ const ConvocatoriasPage: React.FC = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
