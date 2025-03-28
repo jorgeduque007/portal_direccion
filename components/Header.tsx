@@ -56,6 +56,11 @@ const Header: React.FC = () => {
           </li>
           <li>
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
+              <Link href="/convocatorias">Convocatorias</Link>
+            </motion.div>
+          </li>
+          <li>
+            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.97 }}>
               <Link href="/datos">Cifras</Link>
             </motion.div>
           </li>
@@ -103,6 +108,14 @@ const Header: React.FC = () => {
                   <div className="flex items-center">
                     <FaArrowRight className="mr-2" />
                     Inicio
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link href="/convocatorias" onClick={() => setIsOpen(false)}>
+                  <div className="flex items-center">
+                    <FaArrowRight className="mr-2" />
+                    Convocatorias
                   </div>
                 </Link>
               </li>
