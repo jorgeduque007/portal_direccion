@@ -169,6 +169,20 @@ const ConvocatoriasPage: React.FC = () => {
                 <BsFiletypeXls className="text-3xl text-black ml-2" />
               </a>
             </li>
+            <li className="mb-8 flex items-center gap-2">
+              <a
+                href="https://stpnis.blob.core.windows.net/testdsci/preregistroArgelia/Documento_Aclaraciones_ACMP_No_01_Argelia.pdf "
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex items-center"
+              >
+                <span className="mr-2">•</span>
+                <span className="underline">
+                  Preguntas frecuentes
+                </span>
+                <BsFiletypePdf className="text-3xl text-black ml-2" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
