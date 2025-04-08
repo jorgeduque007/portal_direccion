@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-[#F3F8FF] text-[#02033B] h-[100px] font-bold text-[24px]">
+    <header className="bg-[#F3F8FF] text-[#02033B] h-[100px] font-bold text-[24px] sticky top-0 z-50 shadow-md">
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <div className="text-2xl font-bold">
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
 
         {/* Botón de hamburguesa / cerrar */}
         <button
-          className=" block md:hidden focus:outline-none z-50"
+          className="block md:hidden focus:outline-none z-50"
           onClick={toggleMenu}
         >
           {isOpen ? (
@@ -84,7 +84,7 @@ const Header: React.FC = () => {
         {/* Menú desplegable */}
         {isOpen && (
           <div className="fixed inset-0 bg-[#02033B] text-white z-40">
-            {/* Logo menú hamburguesa*/}
+            {/* Logo menú hamburguesa */}
             <div className="text-2xl font-bold absolute top-7 left-7">
               <Image
                 src="/logoprograma.png"

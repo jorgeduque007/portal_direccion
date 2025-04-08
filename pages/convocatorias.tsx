@@ -171,15 +171,27 @@ const ConvocatoriasPage: React.FC = () => {
             </li>
             <li className="mb-8 flex items-center gap-2">
               <a
-                href="https://stpnis.blob.core.windows.net/testdsci/preregistroArgelia/Documento_Aclaraciones_ACMP_No_01_Argelia.pdf "
+                href="https://stpnis.blob.core.windows.net/testdsci/Documentos_convocatoria_argelia_UNODC/Adenda_No_01_ACMP_No_01_Argelia.pdf "
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" flex items-center"
               >
                 <span className="mr-2">•</span>
                 <span className="underline">
-                  Preguntas frecuentes
+                  Adenda 01 ACMP de la convocatoria de proveedores Argelia
                 </span>
+                <BsFiletypePdf className="text-3xl text-black ml-2" />
+              </a>
+            </li>
+            <li className="mb-8 flex items-center gap-2">
+              <a
+                href="https://stpnis.blob.core.windows.net/testdsci/preregistroArgelia/Documento_Aclaraciones_ACMP_No_01_Argelia.pdf "
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex items-center"
+              >
+                <span className="mr-2">•</span>
+                <span className="underline">Preguntas frecuentes</span>
                 <BsFiletypePdf className="text-3xl text-black ml-2" />
               </a>
             </li>
