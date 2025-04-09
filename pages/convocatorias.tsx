@@ -92,15 +92,15 @@ const ConvocatoriasPage: React.FC = () => {
             <span className="font-bold mr-2">
               Recepción de preguntas o solicitud de aclaraciones:
             </span>
-            Hasta el 31 de marzo de 2025 a las 11:00 AM
+            Hasta el 08 de abril de 2025 a las 11:00 AM
           </h2>
           <h2 className="text-2xl font-sans md:text-2xl  text-black mb-8">
             <span className="font-bold mr-2">Publicación de respuestas:</span>
-            02 de abril de 2025
+            10 de abril de 2025
           </h2>
           <h2 className="text-2xl font-sans md:text-2xl  text-black mb-8">
             <span className="font-bold mr-2">Fecha de cierre:</span>
-            07 de abril de 2025 a las 10:00 AM
+            16 de abril de 2025 a las 10:00 AM
           </h2>
           <h2 className="text-xl font-sans md:text-2xl  text-black ">
             <span className="font-bold mr-2">NOTA:</span>
